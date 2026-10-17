@@ -1,20 +1,23 @@
-# TrustCom GRC Charter
-*Simulated case study — all people, data, and events are fictional.*
+# TrustCom GRC Charter — One-Pager
+*Simulated case study — all people, data, and events are fictional. Training artifact, Module 1 mini-project.*
 
-## Situation
-TrustCom, a 25-person SaaS company, had no formal GRC structure. Security decisions were verbal, nothing was provable, and no one clearly owned risk or compliance.
+## Mission
+TrustCom keeps customer data safe and can prove it — every access owned, every risk documented, every claim evidenced.
 
-## What I did
-- Wrote a one-page GRC charter: mission line, named G/R/C owners, top 3 fictional risks
-- Defined the four risk treatments (avoid / mitigate / transfer / accept) with a documented-acceptance rule — no verbal acceptances
-- Set standing rules: exactly one named owner per recurring task; no evidence, no compliance
+## Owners
+| Role | Name (fictional) | Owns |
+|---|---|---|
+| Governance owner | Yaw Owusu, Chief Technology Officer | Security decisions, policy approvals, risk-acceptance sign-off |
+| Risk owner | Abena Frimpong, GRC Analyst | Risk register, risk assessments, treatment tracking |
+| Compliance owner | Sofia Laurent, Compliance Lead | Evidence collection, audit readiness, control testing |
 
-## Deliverable
-`trustcom-grc-one-pager.md` — the charter (in this folder)
+## Top 3 risks
+1. **Customer database breach via stolen credentials** — no MFA on admin accounts; likely × severe.
+2. **Ransomware through phishing** — no tested backups and no incident response plan; likely × severe.
+3. **Enterprise deal loss over missing SOC 2** — customers demand proof of security we cannot produce; likely × major.
 
-## Skills demonstrated
-Governance design · risk ownership modeling · technical writing · audit-ready documentation
-
-## Resume bullet
-Authored a GRC charter and risk-ownership model for a 25-person SaaS company, defining governance roles, risk treatment standards, and compliance evidence requirements.
+## Standing rules
+- Every accepted risk is documented and signed off — no verbal acceptances.
+- Every recurring task has exactly one named owner.
+- No evidence, no compliance.
 
